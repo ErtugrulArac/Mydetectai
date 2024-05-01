@@ -4,7 +4,7 @@ import { FcApproval } from "react-icons/fc";
 
 const misyon = () => {
     return (
-        <div className='bg-black w-[80%] max-xl:w-[60%] max-md:w-[80%] mt-28 mb-44 m-auto  text-white'>
+        <div className='bg-black w-[80%] max-xl:w-[60%] max-md:w-[80%] mt-28 mb-44 max-md:mb-8 max-lg:mb-8 m-auto  text-white'>
             <div className='flex max-xl:flex-col items-center justify-center'>
                 <div className='flex flex-col  gap-10 max-md:gap-9'>
                     <p className='font-work font-bold max-md:text-2xl text-4xl'>Buraya Başlık Girilecek </p>
