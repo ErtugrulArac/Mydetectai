@@ -1,5 +1,6 @@
 import React from 'react'
 import Mainn from "@/components/mainn/mainn"
+import Misyon from "@/components/misyon/misyon"
 
 
 const page = () => {
@@ -16,6 +17,7 @@ const page = () => {
 
       </div>
       <Mainn />
+      <Misyon />
 
     </div>
   )

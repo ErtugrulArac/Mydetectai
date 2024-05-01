@@ -22,7 +22,7 @@ export default function PopoverDemo() {
         <Popover>
             <PopoverTrigger asChild>
             <FaRegUser className='size-8 text-white max-md:size-7 cursor-pointer' />
-            </PopoverTrigger>
+            </PopoverTrigger> 
             <PopoverContent className="w-52 max-md:w-36 max-md:mr-14">
                 <div className="flex flex-col gap-4">
                     <div className="flex  gap-2">
