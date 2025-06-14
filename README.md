@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MyDetectAcil – Emergency Detection & Alert System
 
-## Getting Started
+A lightweight, responsive web app designed to detect emergency-related keywords and phrases in real-time chat or input, and trigger alerts/notifications accordingly.  
+Built with **React**, **Tailwind CSS**, and **TypeScript**, this project emphasizes modular architecture, performance, and accessibility.
 
-First, run the development server:
+## 🎯 Project Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Mydetectacil aims to serve as a proactive **emergency detection tool** in chat or messaging scenarios—identifying danger signals like “help”, “acil” (urgent), “tehlike” (danger), etc., and instantly notifying stakeholders or triggering predefined interventions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Live Demo  
+🌐 [https://mydetectacil.vercel.app](https://mydetectacil.vercel.app)  
+*(Replace with custom domain if/when connected.)*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **React.js** with functional components  
+- **TypeScript** for static typing & developer experience  
+- **Tailwind CSS** for utility-first, responsive styling  
+- **ESLint / Prettier** for code consistency  
+- **Vite** for ultra-fast development startup  
+- **Jest** for unit tests of detection logic  
+- **Vercel** for deployment (CI/CD enabled)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💡 Key Features
 
-## Deploy on Vercel
+- ✅ **Real-time input parsing** for predefined emergency keywords  
+- ✅ **Modular detection engine** (easy to extend with new keywords)  
+- ✅ Fully **responsive UI**, designed for mobile-first usage  
+- ✅ Performance-first architecture minimizing bundle size  
+- ✅ **Accessibility-ready** with keyboard navigation & ARIA attributes  
+- ✅ Clean, semantic HTML — supports SEO principles & general web best practices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📸 Screenshots  
+*(Include UI preview e.g., `/public/preview.png`, showcasing alert modal or input field.)*
+
+---
+
+### 📂 Project Structure (Highlights)
+
